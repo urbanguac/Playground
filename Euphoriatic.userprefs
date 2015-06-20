@@ -1,8 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ExplodeOnImpact.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BlasterMove.cs">
     <Files>
-      <File FileName="Assets\Scripts\ExplodeOnImpact.cs" Line="22" Column="24" />
+      <File FileName="Assets\CharacterKill.cs" Line="16" Column="38" />
+      <File FileName="Assets\BulletControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BlasterFire.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MovePlain.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BlasterMove.cs" Line="21" Column="1" />
+      <File FileName="Assets\Mesh Explosion\MeshExploder.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NetworkManager.cs" Line="16" Column="1" />
+      <File FileName="Assets\MultiOnline\Scripts\MPlayerMove.cs" Line="22" Column="3" />
+      <File FileName="Assets\MultiOnline\Scripts\MPlayerNetwork.cs" Line="7" Column="10" />
+      <File FileName="Assets\MultiOnline\Scripts\MOServer.cs" Line="13" Column="71" />
+      <File FileName="Assets\Scripts\ExplodeOnImpact.cs" Line="5" Column="2" />
+      <File FileName="Assets\MultiOnline\Scripts\MNetwork.cs" Line="39" Column="21" />
+      <File FileName="Assets\MultiOnline\Scripts\MGamePlayerList.cs" Line="13" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 65cbc0989ab89d34da69855f7af4be6b
-timeCreated: 1434238601
+guid: dd4d58d038fe74d4c8d25f13489e4cba
+timeCreated: 1434576250
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -12,7 +12,6 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
-    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -22,7 +21,7 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -52,7 +51,7 @@ ModelImporter:
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
@@ -64,7 +63,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: default
+    rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   additionalBone: 0

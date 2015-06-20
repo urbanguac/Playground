@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,13 +46,54 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\Bridge.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\DetachFace.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\ExplodeFaces.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\ExportObj.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\ExtrudeFace.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\FlipFaces.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\InvertSelection.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\Merge.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\PivotTool.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\ProBuilderizeGameObject.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Actions\StripProBuilderScripts.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\ProBuilderMenuItems.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Repair\CleanUpLeakedMeshes.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Repair\FixGameObjectFlags.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Repair\ForceMeshRefresh.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Repair\RebuildSharedIndices.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Repair\SetProjectionAxis.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Tools\AutoNodraw.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Tools\ProjectNodrawUtil.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\Tools\SelectFacesWithMaterial.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\pb_About.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\pb_Preferences.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Editor\pb_Upgrade_Utility.cs" />
+     <Compile Include="Assets\6by7\ProBuilder\Install\Editor\QuickStart.cs" />
      <Compile Include="Assets\Mesh Explosion\Editor\MeshExploderEditor.cs" />
-     <None Include="Assets\UniFileBrowser Assets\Documentation\UniFileBrowser 2.0 Upgrade Guide.txt" />
-     <None Include="Assets\UniFileBrowser Assets\Documentation\UniFileBrowser changelog.txt" />
+     <Compile Include="Assets\MultiOnline\Editor\MGameChatEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MGameMenuEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MGameParameterEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MGamePlayerListEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MMenuEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MNetworkEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MODSDataEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MODSMenuEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MODSNetworkEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MOMenuEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MPlayerDataEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MTextEditor.cs" />
+     <Compile Include="Assets\MultiOnline\Editor\MWaitRoomEditor.cs" />
+     <None Include="Assets\6by7\ProBuilder\changelog.txt" />
+     <None Include="Assets\6by7\ProBuilder\Shader\DiffuseVertexColor.shader" />
+     <None Include="Assets\6by7\ProBuilder\Shader\DiffuseVertexColorTransparency.shader" />
+     <None Include="Assets\6by7\ProBuilder\VersionInfo.txt" />
+     <None Include="Assets\6by7\ProBuilder\Shader\UnlitColor.shader" />
+     <None Include="Assets\6by7\ProBuilder\API Examples\Instantiation\README.txt" />
+     <None Include="Assets\6by7\ProBuilder\Shader\UnlitColor-Overlay.shader" />
+     <None Include="Assets\6by7\ProBuilder\Shader\DiffuseVertexColorEmission.shader" />
      <None Include="Assets\Mesh Explosion\Read Me.txt" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Priansh/Documents/Euphoriatic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
+     <None Include="Assets\6by7\ProBuilder\Editor\Actions\Credits.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>C:/Users/Priansh/Documents/Euphoriatic/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
@@ -61,6 +102,15 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore">
+ <HintPath>C:/Users/Priansh/Documents/Euphoriatic/Assets/6by7/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderEditor">
+ <HintPath>C:/Users/Priansh/Documents/Euphoriatic/Assets/6by7/ProBuilder/Editor/ProBuilderEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="SixBySeven">
+ <HintPath>C:/Users/Priansh/Documents/Euphoriatic/Assets/6by7/Shared/Code/SixBySeven.dll</HintPath>
  </Reference>
  <Reference Include="LibGit2Sharp">
  <HintPath>C:/Users/Priansh/Documents/Euphoriatic/Assets/Plugins/LibGit2Sharp.dll</HintPath>

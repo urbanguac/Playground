@@ -5,8 +5,6 @@ Project("{65D9A868-78B9-A1A4-CAC5-645581989C88}") = "Euphoriatic", "Assembly-CSh
 EndProject
 Project("{65D9A868-78B9-A1A4-CAC5-645581989C88}") = "Euphoriatic", "Assembly-CSharp-Editor.csproj", "{DBC8F3B4-D7C6-DF79-6602-8BAD044B107E}"
 EndProject
-Project("{65D9A868-78B9-A1A4-CAC5-645581989C88}") = "Euphoriatic", "Assembly-UnityScript-firstpass.unityproj", "{21A49955-C950-8CC8-A5D7-AB240A1106DE}"
-EndProject
 Project("{65D9A868-78B9-A1A4-CAC5-645581989C88}") = "Euphoriatic", "Assembly-UnityScript.unityproj", "{6B554845-6BDB-4E00-6FD1-DACFD5458EC5}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{DBC8F3B4-D7C6-DF79-6602-8BAD044B107E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC8F3B4-D7C6-DF79-6602-8BAD044B107E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC8F3B4-D7C6-DF79-6602-8BAD044B107E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21A49955-C950-8CC8-A5D7-AB240A1106DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21A49955-C950-8CC8-A5D7-AB240A1106DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21A49955-C950-8CC8-A5D7-AB240A1106DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21A49955-C950-8CC8-A5D7-AB240A1106DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B554845-6BDB-4E00-6FD1-DACFD5458EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B554845-6BDB-4E00-6FD1-DACFD5458EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B554845-6BDB-4E00-6FD1-DACFD5458EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+																																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
