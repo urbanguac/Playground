@@ -10,6 +10,8 @@ On the player object, also disable NetworkEnabled in the MovePlain component.
 In the Euphoriatic Main scene, find UserSpawns object. Enable the two network scripts on it.
 Inside UserSpawns, find Spawn 5. There's a player inside it. Enable the two network scripts on the player.
 On the player object, also enable NetworkEnabled in the MovePlain component.
+Open Build Settings. Check off Menu, WaitRoom, and Euphoriatic Main scenes. Build it.
+The .exe should work now.
 
 To use multiplayer:
 1) Finish your edits. Push back to GitHub, or if you're unintelligible send it to Priansh in a zip or something.
